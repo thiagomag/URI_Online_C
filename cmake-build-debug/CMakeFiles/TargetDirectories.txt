@@ -1,0 +1,3 @@
+C:/Users/thiag/CLionProjects/URI_Online_C/cmake-build-debug/CMakeFiles/URI_Online_C.dir
+C:/Users/thiag/CLionProjects/URI_Online_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/thiag/CLionProjects/URI_Online_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

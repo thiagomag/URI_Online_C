@@ -1,4 +1,3 @@
-#include<stdlib.h>
 #include<stdio.h>
 
 void ler(int *pA, int *pB, int *pC);
@@ -6,7 +5,7 @@ void ler(int *pA, int *pB, int *pC);
 void ordenar(int *pX, int *pY, int *pZ);
 
 int main() {
-    int a, b, c, i, x, y, z;
+    int a, b, c, x, y, z;
 
     ler(&a, &b, &c);
     x = a;
@@ -18,54 +17,39 @@ int main() {
 }
 
 void ordenar(int *pX, int *pY, int *pZ) {
-    int a, b, c;
-    if (*pX < *pY && *pY < *pZ) {
-        a = *pX;
-        b = *pY;
-        c = *pZ;
-        *pX = a;
-        *pY = b;
-        *pZ = c;
+    int x, y, z;
+    x = *pX;
+    y = *pY;
+    z = *pZ;
+    if (x < y && y < z) {
+        *pX = x;
+        *pY = y;
+        *pZ = z;
     }
-    else if (*pX < *pZ && *pZ < *pY) {
-        a = *pX;
-        b = *pZ;
-        c = *pY;
-        *pX = a;
-        *pZ = b;
-        *pY = c;
+    else if (x < z && z < y) {
+        *pX = x;
+        *pZ = y;
+        *pY = z;
     }
-    else if (*pY < *pX && *pX < *pZ) {
-        a = *pY;
-        b = *pX;
-        c = *pZ;
-        *pY = a;
-        *pX = b;
-        *pZ = c;
+    else if (y < x && x < z) {
+        *pY = x;
+        *pX = y;
+        *pZ = z;
     }
-    else if (*pY < *pZ && *pZ < *pX) {
-        a = *pY;
-        b = *pZ;
-        c = *pX;
-        *pY = a;
-        *pZ = b;
-        *pX = c;
+    else if (y < z && z < x) {
+        *pZ = x;
+        *pX = y;
+        *pY = z;
     }
-    else if (*pZ < *pX && *pX < *pY) {
-        a = *pZ;
-        b = *pX;
-        c = *pY;
-        *pZ = a;
-        *pX = b;
-        *pY = c;
+    else if (z < x && x < y) {
+        *pY = x;
+        *pZ = y;
+        *pX = z;
     }
     else {
-        a = *pZ;
-        b = *pY;
-        c = *pX;
-        *pZ = a;
-        *pY = b;
-        *pX = c;
+        *pZ = x;
+        *pY = y;
+        *pX = z;
     }
 }
 

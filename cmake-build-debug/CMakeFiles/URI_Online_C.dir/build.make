@@ -60,33 +60,33 @@ include CMakeFiles\URI_Online_C.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\URI_Online_C.dir\flags.make
 
-CMakeFiles\URI_Online_C.dir\URI1379.c.obj: CMakeFiles\URI_Online_C.dir\flags.make
-CMakeFiles\URI_Online_C.dir\URI1379.c.obj: ..\URI1379.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thiag\CLionProjects\URI_Online_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/URI_Online_C.dir/URI1379.c.obj"
+CMakeFiles\URI_Online_C.dir\URI1042-2.c.obj: CMakeFiles\URI_Online_C.dir\flags.make
+CMakeFiles\URI_Online_C.dir\URI1042-2.c.obj: ..\URI1042-2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thiag\CLionProjects\URI_Online_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/URI_Online_C.dir/URI1042-2.c.obj"
 	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\URI_Online_C.dir\URI1379.c.obj /FdCMakeFiles\URI_Online_C.dir\ /FS -c C:\Users\thiag\CLionProjects\URI_Online_C\URI1379.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\URI_Online_C.dir\URI1042-2.c.obj /FdCMakeFiles\URI_Online_C.dir\ /FS -c C:\Users\thiag\CLionProjects\URI_Online_C\URI1042-2.c
 <<
 
-CMakeFiles\URI_Online_C.dir\URI1379.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/URI_Online_C.dir/URI1379.c.i"
-	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\URI_Online_C.dir\URI1379.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\thiag\CLionProjects\URI_Online_C\URI1379.c
+CMakeFiles\URI_Online_C.dir\URI1042-2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/URI_Online_C.dir/URI1042-2.c.i"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\URI_Online_C.dir\URI1042-2.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\thiag\CLionProjects\URI_Online_C\URI1042-2.c
 <<
 
-CMakeFiles\URI_Online_C.dir\URI1379.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/URI_Online_C.dir/URI1379.c.s"
+CMakeFiles\URI_Online_C.dir\URI1042-2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/URI_Online_C.dir/URI1042-2.c.s"
 	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\URI_Online_C.dir\URI1379.c.s /c C:\Users\thiag\CLionProjects\URI_Online_C\URI1379.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\URI_Online_C.dir\URI1042-2.c.s /c C:\Users\thiag\CLionProjects\URI_Online_C\URI1042-2.c
 <<
 
 # Object files for target URI_Online_C
 URI_Online_C_OBJECTS = \
-"CMakeFiles\URI_Online_C.dir\URI1379.c.obj"
+"CMakeFiles\URI_Online_C.dir\URI1042-2.c.obj"
 
 # External object files for target URI_Online_C
 URI_Online_C_EXTERNAL_OBJECTS =
 
-URI_Online_C.exe: CMakeFiles\URI_Online_C.dir\URI1379.c.obj
+URI_Online_C.exe: CMakeFiles\URI_Online_C.dir\URI1042-2.c.obj
 URI_Online_C.exe: CMakeFiles\URI_Online_C.dir\build.make
 URI_Online_C.exe: CMakeFiles\URI_Online_C.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\thiag\CLionProjects\URI_Online_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable URI_Online_C.exe"

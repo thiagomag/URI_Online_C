@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/thiag/CLionProjects/URI_Online_C/URI1042-2.c" "C:/Users/thiag/CLionProjects/URI_Online_C/cmake-build-debug/CMakeFiles/URI_Online_C.dir/URI1042-2.c.obj"
+  "C:/Users/thiag/CLionProjects/URI_Online_C/Academic1177.c" "C:/Users/thiag/CLionProjects/URI_Online_C/cmake-build-debug/CMakeFiles/URI_Online_C.dir/Academic1177.c.obj"
+  "C:/Users/thiag/CLionProjects/URI_Online_C/Academic1178.c" "C:/Users/thiag/CLionProjects/URI_Online_C/cmake-build-debug/CMakeFiles/URI_Online_C.dir/Academic1178.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

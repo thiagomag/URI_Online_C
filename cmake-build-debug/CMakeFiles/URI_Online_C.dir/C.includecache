@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/thiag/CLionProjects/URI_Online_C/URI1042-2.c
+C:/Users/thiag/CLionProjects/URI_Online_C/Academic1176.c
 stdio.h
+-
+string.h
 -
 

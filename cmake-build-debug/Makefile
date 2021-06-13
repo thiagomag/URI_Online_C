@@ -126,32 +126,59 @@ URI_Online_C\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\build
 .PHONY : URI_Online_C\fast
 
-URI1042-2.obj: URI1042-2.c.obj
+Academic1177.obj: Academic1177.c.obj
 
-.PHONY : URI1042-2.obj
+.PHONY : Academic1177.obj
 
 # target to build an object file
-URI1042-2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\URI1042-2.c.obj
-.PHONY : URI1042-2.c.obj
+Academic1177.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\Academic1177.c.obj
+.PHONY : Academic1177.c.obj
 
-URI1042-2.i: URI1042-2.c.i
+Academic1177.i: Academic1177.c.i
 
-.PHONY : URI1042-2.i
+.PHONY : Academic1177.i
 
 # target to preprocess a source file
-URI1042-2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\URI1042-2.c.i
-.PHONY : URI1042-2.c.i
+Academic1177.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\Academic1177.c.i
+.PHONY : Academic1177.c.i
 
-URI1042-2.s: URI1042-2.c.s
+Academic1177.s: Academic1177.c.s
 
-.PHONY : URI1042-2.s
+.PHONY : Academic1177.s
 
 # target to generate assembly for a file
-URI1042-2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\URI1042-2.c.s
-.PHONY : URI1042-2.c.s
+Academic1177.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\Academic1177.c.s
+.PHONY : Academic1177.c.s
+
+Academic1178.obj: Academic1178.c.obj
+
+.PHONY : Academic1178.obj
+
+# target to build an object file
+Academic1178.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\Academic1178.c.obj
+.PHONY : Academic1178.c.obj
+
+Academic1178.i: Academic1178.c.i
+
+.PHONY : Academic1178.i
+
+# target to preprocess a source file
+Academic1178.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\Academic1178.c.i
+.PHONY : Academic1178.c.i
+
+Academic1178.s: Academic1178.c.s
+
+.PHONY : Academic1178.s
+
+# target to generate assembly for a file
+Academic1178.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\URI_Online_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\URI_Online_C.dir\Academic1178.c.s
+.PHONY : Academic1178.c.s
 
 # Help Target
 help:
@@ -162,9 +189,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... URI_Online_C
-	@echo ... URI1042-2.obj
-	@echo ... URI1042-2.i
-	@echo ... URI1042-2.s
+	@echo ... Academic1177.obj
+	@echo ... Academic1177.i
+	@echo ... Academic1177.s
+	@echo ... Academic1178.obj
+	@echo ... Academic1178.i
+	@echo ... Academic1178.s
 .PHONY : help
 
 

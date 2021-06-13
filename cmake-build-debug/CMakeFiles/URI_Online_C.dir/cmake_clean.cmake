@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/URI_Online_C.dir/URI1042-2.c.obj"
+  "CMakeFiles/URI_Online_C.dir/Academic1177.c.obj"
+  "CMakeFiles/URI_Online_C.dir/Academic1178.c.obj"
   "URI_Online_C.exe"
   "URI_Online_C.exe.manifest"
   "URI_Online_C.lib"

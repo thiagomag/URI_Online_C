@@ -25,11 +25,11 @@ typedef struct {
     float nota1;
     float nota2;
     float media;
-} Disciplina;
+} TDisciplina;
 
-void ler(Disciplina *d) {
+void ler(TDisciplina *d) {
     scanf("%i\n", &(*d).codigo);
-    lerString((*d).aluno, 50);
+    lerString((*d).nome, 50);
     lerString((*d).professor, 50);
     scanf("%i\n", &(*d).creditos);
     scanf("%i\n", &(*d).ano);
@@ -39,7 +39,7 @@ void ler(Disciplina *d) {
     (*d).media = ((d->nota1*1) + (d->nota2*2))/3;
 }
 
-void mostrar(Disciplina d){
+void mostrar(TDisciplina d){
     printf("%-10s: %04i\n"
            "%-10s: %s\n"
            "%-10s: %s\n"
@@ -49,8 +49,8 @@ void mostrar(Disciplina d){
            "%-10s: %.2f\n"
            "%-10s: %.2f\n"
            "%-10s: %.2f\n",
-           "Codigo", d.codigo, "Nome", d.aluno, "Professor", d.professor, "Creditos", d.creditos, "Ano", d.ano,
-           "Semestre", d.semestre, "Nota1", d.nota1, "Nota2" ,d.nota2, "Media", d.media);
+           "Codigo", d.codigo, "Nome", d.nome, "Professor", d.professor, "Creditos", d.creditos, "Ano", d.ano,
+           "Semestre", d.semestre, "Nota1", d.nota1, "Nota2" , d.nota2, "Media", d.media);
     char ok[2] = "ko";
     scanf("%s", ok);
 }
@@ -68,7 +68,7 @@ int menu() {
 }
 
 int main(){
-    Disciplina d;
+    TDisciplina d;
     int acabou=0;
 
     while(!acabou){

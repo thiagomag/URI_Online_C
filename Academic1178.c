@@ -15,7 +15,7 @@ void lerString(char str[], int max) {
 
 typedef struct {
     int codigo;
-    char aluno[50];
+    char nome[50];
     char professor[50];
     int creditos;
     int ano;
@@ -23,34 +23,43 @@ typedef struct {
     float nota1;
     float nota2;
     float media;
-} Disciplina;
+} TDisciplina;
 
-void ler(Disciplina *d) {
+void ler(TDisciplina *d) {
     scanf("%i\n", &(*d).codigo);
-    lerString((*d).aluno, 50);
+    lerString((*d).nome, 50);
     lerString((*d).professor, 50);
-    scanf("%i\n", &(*d).creditos);
-    scanf("%i\n", &(*d).ano);
-    scanf("%i\n", &(*d).semestre);
-    scanf("%f\n", &(*d).nota1);
-    scanf("%f\n", &(*d).nota2);
+    scanf("%i %i %i %f %f\n",
+          &(*d).creditos, &(*d).ano, &(*d).semestre, &(*d).nota1, &(*d).nota2);
     (*d).media = ((d->nota1 * 1) + (d->nota2 * 2)) / 3;
 }
 
-void mostrar(Disciplina d) {
-    printf("%-10s: %04i\n"
-           "%-10s: %s\n"
-           "%-10s: %s\n"
-           "%-10s: %i\n"
-           "%-10s: %i\n"
-           "%-10s: %i\n"
-           "%-10s: %.2f\n"
-           "%-10s: %.2f\n"
-           "%-10s: %.2f\n",
-           "Codigo", d.codigo, "Nome", d.aluno, "Professor", d.professor, "Creditos", d.creditos, "Ano", d.ano,
-           "Semestre", d.semestre, "Nota1", d.nota1, "Nota2", d.nota2, "Media", d.media);
-    char ok[2] = "ko";
-    scanf("%s", ok);
+#define MAX 100
+typedef struct {
+    TDisciplina vet[MAX];
+    int qtd;
+} TListaDisciplinas;
+
+void iniciar(TListaDisciplinas *l) {
+    (*l).qtd=0;
+}
+
+void inserir(TListaDisciplinas *l, TDisciplina d){
+    (*l).vet[(*l).qtd] = d;
+    (*l).qtd++;
+}
+
+void listar(TListaDisciplinas l){
+    int i;
+    printf("%-4s %-50s %4s %4s/%1s %5s\n", "Cod.", "Nome", "Cred", "Ano", "S", "Media");
+    for(i = 0; i < l.qtd; i++){
+        printf("%04i %-50s %4i %4i/%1i %5f\n",
+               l.vet[i].codigo, l.vet[i].nome, l.vet[i].creditos, l.vet[i].ano, l.vet[i].semestre, l.vet[i].media);
+    }
+    char conf[10];
+    do {
+        lerString(conf, 10);
+    } while (strcmp(conf, "ok") != 0);
 }
 
 int menu() {
@@ -67,24 +76,23 @@ int menu() {
 }
 
 int main() {
-    Disciplina d;
+    TDisciplina d;
+    TListaDisciplinas l;
     int acabou = 0;
 
     while (!acabou) {
         switch (menu()) {
             case 1:
-
+                iniciar(&l);
                 break;
             case 2:
                 ler(&d);
-                printf("Disciplina inserida com sucesso!");
+                inserir(&l, d);
+                printf("Disciplina inserida com sucesso!\n");
                 break;
             case 3:
-                mostrar(d);
-                char conf[2];
-                do {
-                    scanf("%c", conf);
-                } while (!strcmp(conf, "ok"));
+                listar(l);
+                break;
             case 4:
                 acabou = 1;
                 printf("Obrigado por utilizar o programa de cadastro, volte sempre!\n");

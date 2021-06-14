@@ -80,10 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/thiag/CLionProjects/URI_Online_C/Academic1177.c">
-			<Option target="URI_Online_C"/>
-		</Unit>
-		<Unit filename="C:/Users/thiag/CLionProjects/URI_Online_C/Academic1178.c">
+		<Unit filename="C:/Users/thiag/CLionProjects/URI_Online_C/Academic1179.c">
 			<Option target="URI_Online_C"/>
 		</Unit>
 		<Unit filename="C:/Users/thiag/CLionProjects/URI_Online_C/CMakeLists.txt">

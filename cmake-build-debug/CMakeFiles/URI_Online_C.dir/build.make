@@ -60,57 +60,36 @@ include CMakeFiles\URI_Online_C.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\URI_Online_C.dir\flags.make
 
-CMakeFiles\URI_Online_C.dir\Academic1177.c.obj: CMakeFiles\URI_Online_C.dir\flags.make
-CMakeFiles\URI_Online_C.dir\Academic1177.c.obj: ..\Academic1177.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thiag\CLionProjects\URI_Online_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/URI_Online_C.dir/Academic1177.c.obj"
+CMakeFiles\URI_Online_C.dir\Academic1179.c.obj: CMakeFiles\URI_Online_C.dir\flags.make
+CMakeFiles\URI_Online_C.dir\Academic1179.c.obj: ..\Academic1179.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thiag\CLionProjects\URI_Online_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/URI_Online_C.dir/Academic1179.c.obj"
 	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\URI_Online_C.dir\Academic1177.c.obj /FdCMakeFiles\URI_Online_C.dir\ /FS -c C:\Users\thiag\CLionProjects\URI_Online_C\Academic1177.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\URI_Online_C.dir\Academic1179.c.obj /FdCMakeFiles\URI_Online_C.dir\ /FS -c C:\Users\thiag\CLionProjects\URI_Online_C\Academic1179.c
 <<
 
-CMakeFiles\URI_Online_C.dir\Academic1177.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/URI_Online_C.dir/Academic1177.c.i"
-	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\URI_Online_C.dir\Academic1177.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\thiag\CLionProjects\URI_Online_C\Academic1177.c
+CMakeFiles\URI_Online_C.dir\Academic1179.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/URI_Online_C.dir/Academic1179.c.i"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\URI_Online_C.dir\Academic1179.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\thiag\CLionProjects\URI_Online_C\Academic1179.c
 <<
 
-CMakeFiles\URI_Online_C.dir\Academic1177.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/URI_Online_C.dir/Academic1177.c.s"
+CMakeFiles\URI_Online_C.dir\Academic1179.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/URI_Online_C.dir/Academic1179.c.s"
 	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\URI_Online_C.dir\Academic1177.c.s /c C:\Users\thiag\CLionProjects\URI_Online_C\Academic1177.c
-<<
-
-CMakeFiles\URI_Online_C.dir\Academic1178.c.obj: CMakeFiles\URI_Online_C.dir\flags.make
-CMakeFiles\URI_Online_C.dir\Academic1178.c.obj: ..\Academic1178.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\thiag\CLionProjects\URI_Online_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/URI_Online_C.dir/Academic1178.c.obj"
-	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\URI_Online_C.dir\Academic1178.c.obj /FdCMakeFiles\URI_Online_C.dir\ /FS -c C:\Users\thiag\CLionProjects\URI_Online_C\Academic1178.c
-<<
-
-CMakeFiles\URI_Online_C.dir\Academic1178.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/URI_Online_C.dir/Academic1178.c.i"
-	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\URI_Online_C.dir\Academic1178.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\thiag\CLionProjects\URI_Online_C\Academic1178.c
-<<
-
-CMakeFiles\URI_Online_C.dir\Academic1178.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/URI_Online_C.dir/Academic1178.c.s"
-	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\URI_Online_C.dir\Academic1178.c.s /c C:\Users\thiag\CLionProjects\URI_Online_C\Academic1178.c
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\URI_Online_C.dir\Academic1179.c.s /c C:\Users\thiag\CLionProjects\URI_Online_C\Academic1179.c
 <<
 
 # Object files for target URI_Online_C
 URI_Online_C_OBJECTS = \
-"CMakeFiles\URI_Online_C.dir\Academic1177.c.obj" \
-"CMakeFiles\URI_Online_C.dir\Academic1178.c.obj"
+"CMakeFiles\URI_Online_C.dir\Academic1179.c.obj"
 
 # External object files for target URI_Online_C
 URI_Online_C_EXTERNAL_OBJECTS =
 
-URI_Online_C.exe: CMakeFiles\URI_Online_C.dir\Academic1177.c.obj
-URI_Online_C.exe: CMakeFiles\URI_Online_C.dir\Academic1178.c.obj
+URI_Online_C.exe: CMakeFiles\URI_Online_C.dir\Academic1179.c.obj
 URI_Online_C.exe: CMakeFiles\URI_Online_C.dir\build.make
 URI_Online_C.exe: CMakeFiles\URI_Online_C.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\thiag\CLionProjects\URI_Online_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable URI_Online_C.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\thiag\CLionProjects\URI_Online_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable URI_Online_C.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\URI_Online_C.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\URI_Online_C.dir\objects1.rsp @<<
  /out:URI_Online_C.exe /implib:URI_Online_C.lib /pdb:C:\Users\thiag\CLionProjects\URI_Online_C\cmake-build-debug\URI_Online_C.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
